@@ -74,9 +74,9 @@ function updateClock() {
     document.getElementById('hawaiiseconds').textContent = String(hawaiiDate.getSeconds()).padStart(2, '0');
 
     const canada1Date = new Date(gmtDate.getTime() + (-5 * 3600000));
-    document.getElementById('canadahours').textContent = String(canada1Date.getHours()).padStart(2, '0');
-    document.getElementById('canadaminutes').textContent = String(canada1Date.getMinutes()).padStart(2, '0');
-    document.getElementById('canadaseconds').textContent = String(canada1Date.getSeconds()).padStart(2, '0');
+    document.getElementById('canada1hours').textContent = String(canada1Date.getHours()).padStart(2, '0');
+    document.getElementById('canada1minutes').textContent = String(canada1Date.getMinutes()).padStart(2, '0');
+    document.getElementById('canada1seconds').textContent = String(canada1Date.getSeconds()).padStart(2, '0');
 }
 
 updateClock();
