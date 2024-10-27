@@ -8,22 +8,22 @@ function updateClock() {
     document.getElementById('myanmarminutes').textContent = String(myanmarDate.getMinutes()).padStart(2, '0');
     document.getElementById('myanmarseconds').textContent = String(myanmarDate.getSeconds()).padStart(2, '0');
 
-    const italyDate = new Date(gmtDate.getTime() + (2 * 3600000));
+    const italyDate = new Date(gmtDate.getTime() + (1 * 3600000));
     document.getElementById('italyhours').textContent = String(italyDate.getHours()).padStart(2, '0');
     document.getElementById('italyminutes').textContent = String(italyDate.getMinutes()).padStart(2, '0');
     document.getElementById('italyseconds').textContent = String(italyDate.getSeconds()).padStart(2, '0');
 
-    const franceDate = new Date(gmtDate.getTime() + (2 * 3600000));
+    const franceDate = new Date(gmtDate.getTime() + (1 * 3600000));
     document.getElementById('francehours').textContent = String(franceDate.getHours()).padStart(2, '0');
     document.getElementById('franceminutes').textContent = String(franceDate.getMinutes()).padStart(2, '0');
     document.getElementById('franceseconds').textContent = String(franceDate.getSeconds()).padStart(2, '0');
 
-    const greeceDate = new Date(gmtDate.getTime() + (3 * 3600000));
+    const greeceDate = new Date(gmtDate.getTime() + (2 * 3600000));
     document.getElementById('greecehours').textContent = String(greeceDate.getHours()).padStart(2, '0');
     document.getElementById('greeceminutes').textContent = String(greeceDate.getMinutes()).padStart(2, '0');
     document.getElementById('greeceseconds').textContent = String(greeceDate.getSeconds()).padStart(2, '0');
 
-    const switzerlandDate = new Date(gmtDate.getTime() + (2 * 3600000));
+    const switzerlandDate = new Date(gmtDate.getTime() + (1 * 3600000));
     document.getElementById('switzerlandhours').textContent = String(switzerlandDate.getHours()).padStart(2, '0');
     document.getElementById('switzerlandminutes').textContent = String(switzerlandDate.getMinutes()).padStart(2, '0');
     document.getElementById('switzerlandseconds').textContent = String(switzerlandDate.getSeconds()).padStart(2, '0');
@@ -53,7 +53,7 @@ function updateClock() {
     document.getElementById('newzealandminutes').textContent = String(newzealandDate.getMinutes()).padStart(2, '0');
     document.getElementById('newzealandseconds').textContent = String(newzealandDate.getSeconds()).padStart(2, '0');
 
-    const tenerifeDate = new Date(gmtDate.getTime() + (1 * 3600000));
+    const tenerifeDate = new Date(gmtDate.getTime());
     document.getElementById('tenerifehours').textContent = String(tenerifeDate.getHours()).padStart(2, '0');
     document.getElementById('tenerifeminutes').textContent = String(tenerifeDate.getMinutes()).padStart(2, '0');
     document.getElementById('tenerifeseconds').textContent = String(tenerifeDate.getSeconds()).padStart(2, '0');
@@ -63,7 +63,7 @@ function updateClock() {
     document.getElementById('icelandminutes').textContent = String(icelandDate.getMinutes()).padStart(2, '0');
     document.getElementById('icelandseconds').textContent = String(icelandDate.getSeconds()).padStart(2, '0');
 
-    const romeDate = new Date(gmtDate.getTime() + (2 * 3600000));
+    const romeDate = new Date(gmtDate.getTime() + (1 * 3600000));
     document.getElementById('romehours').textContent = String(romeDate.getHours()).padStart(2, '0');
     document.getElementById('romeminutes').textContent = String(romeDate.getMinutes()).padStart(2, '0');
     document.getElementById('romeseconds').textContent = String(romeDate.getSeconds()).padStart(2, '0');
